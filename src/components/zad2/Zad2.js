@@ -20,23 +20,12 @@ export default function Zad2() {
 
     const submit = event => {
         event.preventDefault();
-        console.log(text1Ref.current.value);
-        console.log(text2Ref.current.value);
-        console.log(radioRef.current.checked);
-        console.log(selectRef.current.value);
-        console.log(checkboxRef1.current.checked);
-        console.log(checkboxRef2.current.checked);
-
         Settext1(text1Ref.current.value);
         Settext2(text2Ref.current.value);
         Setradio(radioRef.current.checked);
         SetSelect(selectRef.current.value);
         Setcheck1(checkboxRef1.current.checked);
         Setcheck2(checkboxRef2.current.checked);
-
-        console.log(text1);
-        console.log(text2);
-
         SetTab(!tab);
     }
 
