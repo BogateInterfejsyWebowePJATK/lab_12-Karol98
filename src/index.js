@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Zad2 from "./components/zad2/Zad2";
+import Login from "./components/zad3/Login";
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-      <Zad2/>
+      <Login/>
   </React.StrictMode>,
   document.getElementById('root')
 );
